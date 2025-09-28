@@ -1,5 +1,13 @@
 :root{
-  --maxw:900px;
+  --maxw:900px;/* CSS */
+.background-div {
+    width: 100%;                            /* Full width of the element */
+    height: 100vh;                          /* Full height of the viewport */
+    background-image: url('KAORUKO WAGURI.jpeg');  /* Link the image */
+    background-size: cover;                  /* Scale image to cover the element */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;            /* Prevent image repetition */
+}
   --accent:#2a7;
   --bg:#f7f7f8;
 }
